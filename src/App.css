@@ -1,0 +1,17 @@
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.activeLink {
+  font-weight: 600;
+  color: rgb(0, 0, 0) !important;
+}
