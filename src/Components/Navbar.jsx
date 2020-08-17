@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light ">
+      <nav className="navbar navbar-expand-lg navbar-light border-bottom ">
         <div className="container-fluid col-10 mx-auto">
           <NavLink className="navbar-brand" to="/">
             Business-Name
@@ -20,13 +20,13 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink activeClassName="activeLink" exact className="nav-link" to="/about">
-                  About
+                <NavLink activeClassName="activeLink" exact className="nav-link" to="/service">
+                  Service
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink activeClassName="activeLink" exact className="nav-link" to="/service">
-                  Service
+                <NavLink activeClassName="activeLink" exact className="nav-link" to="/about">
+                  About
                 </NavLink>
               </li>
               <li className="nav-item">

@@ -2,9 +2,9 @@
   content: "";
   display: block;
   width: 0;
-  height: 2px;
-  background: rgb(0, 0, 0);
-  transition: width 0.3s;
+  height: 3px;
+  background: rgb(250, 192, 0);
+  transition: width 0.4s;
 }
 
 .nav-link:hover::after {
@@ -12,6 +12,19 @@
 }
 
 .activeLink {
-  font-weight: 600;
+  font-weight: 500;
   color: rgb(0, 0, 0) !important;
+}
+
+/* .navbar {
+  background-color: rgb(256, 154, 77);
+}
+ */
+
+#hire-us:hover {
+  color: white;
+}
+
+::selection {
+  background-color: rgba(100, 100, 100, 0.466);
 }
